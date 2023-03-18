@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - program that prints lowercase alpabets followed by uppercase alphabets
+ * main - prints upper and lowercase alphabets
+ *
  * Return: 0 (Success)
 */
 int main(void)
 {
 	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int z;
+	int i;
 
-	for (z = 0; z < 52; z++)
+	for  (i = 0; i < 52; i++)
 	{
-		putchar(alp[z]);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
