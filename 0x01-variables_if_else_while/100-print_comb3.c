@@ -1,14 +1,15 @@
 #include <stdio.h>
-
 /**
- * main - print different combination of two digits
+ * main - Print different combination of two digits
  * Return: 0 (Success)
-*/
+ *
+ */
 int main(void)
 {
+
 	int n, m;
 
-	for (n = 48; n <= 56; n++)
+	for (n = 48; n <= 57; n++)
 	{
 		for (m = 49; m <= 57; m++)
 		{
@@ -19,11 +20,11 @@ int main(void)
 				if (n != 56 || m != 57)
 				{
 					putchar(',');
-					putchar('');
+					putchar(' ');
 				}
 			}
 		}
 	}
 	putchar('\n');
 	return (0);
-}	
+}
