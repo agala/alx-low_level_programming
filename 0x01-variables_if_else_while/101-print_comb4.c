@@ -2,7 +2,6 @@
 
 /**
  * main - a program that prints all possible different combinations of three digits
- *
  * Return: 0 (Success)
  */
 int main(void)
@@ -32,4 +31,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
