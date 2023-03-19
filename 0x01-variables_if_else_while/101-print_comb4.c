@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints all possible different combinations of three digits
+ * main - prints three different combinations of three numbers
  * Return: 0 (Success)
  */
 int main(void)
 {
-
 	int n, m, l;
 
 	for (n = 48; n < 58; n++)
@@ -31,5 +30,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
