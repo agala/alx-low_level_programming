@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.c>
 
 /**
  * main - progarm that prints alphabets in lowercase followed by a new line
